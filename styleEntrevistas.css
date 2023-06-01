@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* position: fixed;
+    z-index: 999; */
+    border-bottom: 1px solid #c9c7c7;
+}
+
+.containerImg{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+
+#logo{
+    width: 70%;
+}
+
+.ParteUnoHeader{
+    width: 80%;
+    height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.infoCompany{
+    width: 50%;
+    height: 100%;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    gap: 0.5rem;
+}
+
+.ParteDosHeader{
+    width: 70%;
+    height: 20%;
+    background-color: #cfcfcf;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.containerNoticias{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerNoticias ul{
+    display: flex;
+    justify-content: center;
+    gap: 3.5rem;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}
+
+.anclasMenu{ 
+    width: 8vw;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.anclasMenu:hover{
+    transition: 0.5s;
+    padding: 0.5rem;
+    font-size: 18px;
+    background-color: #000;
+    color: #fff;
+}
+
+.icons2{
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    gap: 0.3rem;
+}
+
+.icons2 .iconsRedes{
+    width: 2.5%;
+} 
+
+.iconsRedes{
+    width: 1.5%;
+}
+
+.iconsRedes1{
+    width: 1.2%;
+}
+
+.iconsRedes2{
+    width: 2%;
+}
+
+.compartirRedes{
+    margin-top: 1%;
+    color: #c9c7c7;
+    display: flex;
+    gap: 0.5rem;
+}
+
+
+.entrevistas{
+    width: 100%;
+    height: 100%;
+    display: flex;  
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.titlePagina{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 50%;
+}
+
+.containerEntrevistas{
+    width: 100%;
+    height: 100%;
+    background-color: #c9c9c9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.AnclasEntrevistas{
+    text-decoration: none;
+    color: #000;
+    width: 60%;
+    height: 20%;
+    background-color: #c9c9c9;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.7s;
+}
+
+.containerEntrevistas:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.AnclasEntrevistas:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 0.7s;
+}
+
+.AnclasEntrevistas .containerEntrevistas h1{
+    margin-left: 10%;
+}
+
+.AnclasEntrevistas .containerEntrevistas p{
+    margin-left: 10%;
+}
+
+.finalEntrevista{
+    width: 100%;
+    height: 10%;
+}
